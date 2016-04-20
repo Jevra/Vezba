@@ -8,5 +8,6 @@ int main(int argc, char* argv[]){
 	}
 	int year;
 	sscanf(argv[1], "%d", &year);
+	printf("Hello world! The year is %dth!\n", year);
 	return 0;
 }
